@@ -1,7 +1,5 @@
-const FeedbackCard = () => {
-	return (
-		<div>FeedbackCard</div>
-	)
+const FeedbackCard = ({ content, name, title, img }) => {
+  return <div>FeedbackCard</div>
 }
 
 export default FeedbackCard
