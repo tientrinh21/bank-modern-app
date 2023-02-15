@@ -12,7 +12,7 @@ const NavBar = () => {
         {navLinks.map((nav) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10 last-of-type:mr-0`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite mr-10 last-of-type:mr-0 first-of-type:text-white`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -36,7 +36,7 @@ const NavBar = () => {
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4 last-of-type:mb-0`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4 last-of-type:mb-0 first-of-type:text-white`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
