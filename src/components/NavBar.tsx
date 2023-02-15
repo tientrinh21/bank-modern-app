@@ -12,7 +12,7 @@ const NavBar = () => {
         {navLinks.map((nav) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite mr-10 last-of-type:mr-0 first-of-type:text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite mr-10 last-of-type:mr-0 first-of-type:text-white hover:text-white`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -30,13 +30,13 @@ const NavBar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-1 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4 last-of-type:mb-0 first-of-type:text-white`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] text-white mb-4 last-of-type:mb-0`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
