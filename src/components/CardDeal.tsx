@@ -10,14 +10,13 @@ const CardDeal = () => {
           in few easy steps.
         </h2>
         <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
-          Easy to register your credit cards, great analysis of your incomes &
-          expenses, intergration with various payment methods.
+          Easy to register your credit cards, great analysis of your incomes & expenses, intergration with various payment methods.
         </p>
         <Button styles="mt-10" />
       </div>
 
       <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
-        <img src={card} alt="card" className="w-[100%] h-[100%]" />
+        <img src={card} alt="card" className="w-[100%] h-[100%] object-contain" />
       </div>
     </section>
   )

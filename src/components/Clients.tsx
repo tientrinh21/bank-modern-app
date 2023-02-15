@@ -1,7 +1,7 @@
 import { clients } from '../constants'
 
 const Clients = () => (
-  <section className="flex justify-center items-center my-4">
+  <section className="flex justify-center items-center">
     <div className="flex justify-center items-center flex-wrap sm:gap-10 gap-3 w-full">
       {clients.map((client) => (
         <div key={client.id} className="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
